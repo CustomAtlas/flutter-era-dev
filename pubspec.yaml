@@ -1,0 +1,29 @@
+name: flutter_era_dev
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  bloc_concurrency: ^0.2.5
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: San Francisco Pro Display
+      fonts:
+        - asset: assets/fonts/sf_pro_display/medium.otf
+          weight: 400
+        - asset: assets/fonts/sf_pro_display/regular.otf
